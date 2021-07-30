@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            Matrix Multiplication
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="row inputs">
+            <div class="col-lg-6 ">
+                <div class="row matriceData">
+                    
+                        <input type="number" name="" class="rows"id="Row1" placeholder="rows">
+                        <input type="number" name="" class="rows"id="Col1" placeholder="cols">
+                    </div>
+                <div class="row">
+                    <input type="text" id="array1" class="form-control" name="" id="" placeholder="Enter your array with element having space btw" required>
+                    </div>
+                    <div class="row matriceData">
+                    
+                        <input type="number" name="" class="rows"id="Row2" placeholder="rows">
+                        <input type="number" name="" class="rows"id="Col2" placeholder="cols">
+                    </div>
+                <div class="row">
+                    <input type="text" id="array2" class="form-control" name="" id="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <button class="btn btn-primary " id="added">+</button>
+                <button class="btn btn-primary " id="subtract">-</button>
+                <button class="btn btn-primary " id="multiply">A x B</button>
+                <button class="btn btn-primary " id="multiplyReverse">B x A</button>
+                <button class="btn btn-primary " id="determinant">|A|</button>
+                <button class="btn btn-primary " id="determinantB">|B|</button>
+                <br>
+                <button class="btn btn-dark " id="calculate">=</button>
+            </div>
+        </div>
+       <div class="ans">
+        
+        <h1 id="answer"></h1>
+        
+       </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script  src="index.js"></script>
+</html>

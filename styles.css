@@ -1,0 +1,51 @@
+body{
+    background-color: #23235e;
+    overflow-x: hidden;
+}
+.form-control{
+    padding: 15px;
+    margin: 20px auto;
+    width: 25vw;
+
+}
+.btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin: 20px 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.ans{
+    height: 30vh;
+    margin-top: 25vh;
+    padding: 15px;
+    background-color: #ffff34;
+    overflow-y: auto;
+    border-radius: 25px;
+
+}
+#answer{
+    text-align: center;
+}
+
+.inputs{
+    padding: 20px;
+}
+.rows{
+    padding: 15px;
+    margin: 0 20px;
+    width: 100px;
+    border-radius: 120px;
+    text-align:center
+}
+.matriceData{
+    margin: 10px 0;
+    float: right;
+}
+.col-sm-12{
+    margin: 0 auto;
+}
+.btn:focus{
+    background-color: black;
+}
